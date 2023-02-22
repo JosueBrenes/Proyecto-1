@@ -160,10 +160,6 @@ h3 {
 
 /* Servicios */
 @media (min-width: 768px) {
-  h2 {
-    text-align: center;
-  }
-
   .servicios {
     display: grid;
     grid-template-columns: repeat (3, 1fr);
