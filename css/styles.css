@@ -58,7 +58,7 @@ h3 {
 
 @media (min-width: 768px) {
   .contenedor {
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
   }
 } /* 480 para telefono */
