@@ -61,7 +61,7 @@
       <!-- <main> Contenido principal de la pagina web -->
       <h2>Cómo conocer a Jesús</h2>
 
-      <section>
+      <section class="servicio">
         <h3>Diseño Web</h3>
         <!-- <p> + Lorem + tab = Texto Aleatorio para ver como queda el diseño de la pagina web -->
         <p>
@@ -71,7 +71,7 @@
       </section>
 
       <div>
-        <section>
+        <section class="servicio">
           <h3>Aplicaciones Web</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
@@ -79,7 +79,7 @@
           </p>
         <sectionn>
 
-        <section>
+        <section class="servicio">
           <h3>E-Commerce</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
@@ -87,48 +87,51 @@
           </p>
         </section>
       </div>
-    </main>
+    
 
     <section>
       <h2>Contacto</h2>
 
-      <form>
+      <form class="formulario">
         <!-- <form> Para formularios -->
         <fieldset>
           <legend>Para mas informacion contactanos</legend>
           <!-- <legend> para describir un formulario -->
 
-          <div>
+        <div class="contenedor-campos">
+          <div class="campos">
             <label>Nombre</label>
             <!-- <label> para dar indicaciones -->
-            <input type="text" placeholder="Digite su nombre" />
+            <input class="input-text" type="text" placeholder="Digite su nombre" />
           </div>
 
-          <div>
+          <div class="campos">
             <label>Telefono</label>
-            <input type="tel" placeholder="Digite su telefono" />
+            <input class="input-text" type="tel" placeholder="Digite su telefono" />
           </div>
 
-          <div>
+          <div class="campos">
             <label>Correo</label>
-            <input type="email" placeholder="Digite su correo" />
+            <input class="input-text" type="email" placeholder="Digite su correo" />
           </div>
 
-          <div>
+          <div class="campos">
             <label>Mensaje </label>
-            <textarea></textarea>
+            <textarea class="input-text"></textarea>
           </div>
-
+        </div> <!-- Contenedor campos -->
+        
           <div>
-            <input type="submit" value="Enviar" />
+            <input class="ancla2" type="submit" value="Enviar" />
           </div>
         </fieldset>
       </form>
     </section>
+</main>
 
-    <footer>
+    <footer class="footer">
       <!-- <footer> Parte inferior de la pagina web -->
-      <p>Todos los derechos reservados. Josué Brenes Freelancer</p>
+      <p>Yo soy el camino, la verdad y la vida; nadie viene al Padre, sino por mí.</p>
     </footer>
   </body>
   <script>
