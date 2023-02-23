@@ -12,6 +12,15 @@ html {
   font-family: "Krub", sans-serif; /* font-family para el tipo de fuente */
   box-sizing: border-box;
   background-color: #f8fafc;
+  scroll-snap-type: y mandatory;
+}
+
+/* Scroll snap */
+.servicio,
+.contenido-hero,
+.formulario {
+  scroll-snap-align: center;
+  scroll-snap-stop: always;
 }
 
 *,
@@ -156,15 +165,6 @@ h3 {
 
 .nombre {
   padding-bottom: 1rem;
-}
-
-/* Servicios */
-@media (min-width: 768px) {
-  .servicios {
-    display: grid;
-    grid-template-columns: repeat (3, 1fr);
-    column-gap: 1rem;
-  }
 }
 
 .servicio {
