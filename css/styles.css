@@ -15,15 +15,6 @@ html {
   scroll-snap-type: y mandatory;
 }
 
-/* Scroll snap */
-.servicio,
-.contenido-hero,
-.formulario,
-.footer {
-  scroll-snap-align: center;
-  scroll-snap-stop: always;
-}
-
 *,
 *:before,
 *:after {
